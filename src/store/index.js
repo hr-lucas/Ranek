@@ -1,9 +1,10 @@
 import { createStore } from "vuex";
+import Usuario from "@/views/usuario/store/Usuarios.js";
+import Login from "@/views/login/store/store.js";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    Usuario,
+    Login,
+  },
 });
